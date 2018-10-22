@@ -14,6 +14,5 @@ int main()
 	metters = DayOfPrak * LenOfThePool;
 	distance = metters / 1000;
 	printf("she swim %.3f M\nshe swim %.3f KM\n", metters, distance);
-	
 	return 0;
 }
