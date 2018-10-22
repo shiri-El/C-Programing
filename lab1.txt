@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNING
+#include<stdio.h>
+
+int main()
+{
+	int DayOfPrak = 0;
+	float LenOfThePool = 0;
+	float metters = 0;
+	float distance = 0;
+	printf("please enter the number of day you swim\n");
+	scanf("%d", &DayOfPrak);
+	printf("please enter the len of the pool\n");
+	scanf("%f", &LenOfThePool);
+	metters = DayOfPrak * LenOfThePool;
+	distance = metters / 1000;
+	printf("she swim %.3f M\nshe swim %.3f KM\n", metters, distance);
+	return 0;
+}
